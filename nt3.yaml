@@ -1,0 +1,14 @@
+measurement: nt3
+time: '2018-08-18T13:43:28.847627+08:00'  # gen by mabo
+tags:
+    machine: tag
+fields:
+    i:
+        type: integer
+        unit: u
+    j:
+        type: string
+        unit: u
+    k:
+        type: float
+        unit: u
