@@ -7,7 +7,7 @@ import cx_Oracle
 def main(fn, fn2):
         
     print("start")
-    con = cx_Oracle.connect('dbuser/dbpw@ORCL')  # bfcecmes
+    con = cx_Oracle.connect('dbuser/dbpw@ORCL') 
 
     print(con.version)
 
