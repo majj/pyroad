@@ -1,7 +1,9 @@
 
 # keyboard hook
-# work with python 3.6.5
-# but keyboard lib has issue with python 3.7
+# work with python 3.6, 3.7
+#> pip uninstall keyboard
+#> git clone https://github.com/boppreh/keyboard.git
+#> python setup.py install
 
 import keyboard, time
 
@@ -19,7 +21,7 @@ def callback(event):
             input = ""
         else:
             input = input + event.name
-        #print (x.name)
+        print (event.name)
 
 
 def main():
